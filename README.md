@@ -101,7 +101,7 @@ Portions of this codebase and its accompanying thesis were drafted with the assi
 
 ## License
 
-MIT — see `LICENSE` for details.
+MIT - see `LICENSE` for details.
 
 ````
 
