@@ -105,5 +105,5 @@ MIT — see `LICENSE` for details.
 
 ````
 
-Replace `<your-username>/<repo-name>` with your actual GitHub path, and adjust the file tree if your actual folder/notebook names differ from what I assumed. Want me to also generate a matching `requirements.txt` or `LICENSE` file?
+Replace `<Freston03>/<Diffusion Model(Cloning Pictures>` with your actual GitHub path, and adjust the file tree if your actual folder/notebook names differ from what I assumed. Want me to also generate a matching `requirements.txt` or `LICENSE` file?
 ````
