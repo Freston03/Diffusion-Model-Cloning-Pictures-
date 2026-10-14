@@ -14,7 +14,7 @@ The theoretical review centres on Biroli & Mézard (2023), *"Generative diffusio
 
 | Case study | Dataset | Model | Trainable params |
 |---|---|---|---|
-| Score function visualisation | Synthetic 2D Gaussian mixture ($P=300$) | Analytic (no network) | — |
+| Score function visualisation | Synthetic 2D Gaussian mixture ($P=300$) | Analytic (no network) | - |
 | Two-phase generation | CelebA-HQ (via pretrained model) | `google/ddpm-celebahq-256` | 0 (inference only) |
 | DDPM from scratch | MNIST | Custom U-Net | ≈ 1.6M |
 | Identity-preserving fine-tuning | Personal photographs (< 10) | Stable Diffusion 1.5 + LoRA ($r=16$) | ≈ 1M (< 0.2% of 860M) |
@@ -71,8 +71,8 @@ Fine-tunes Stable Diffusion 1.5 on a small set of personal photographs using Low
 ## Key results
 
 * Sample complexity: eigenvalue structure is recovered once $P \gg N$; eigenvector (directional) structure requires the far stricter $P \gg N^2$.
-* Symmetry breaking: generation splits into two phases at $t^* \sim \tfrac{1}{2}\log N$ — verified both on a pretrained model and on a model trained from scratch.
-* Small-data limitation: fine-tuning on fewer than 10 personal photographs is well below the $P \gg N^2$ threshold, producing convincing scene composition but inconsistent facial identity — a direct, practical demonstration of the theory.
+* Symmetry breaking: generation splits into two phases at $t^* \sim \tfrac{1}{2}\log N$ - verified both on a pretrained model and on a model trained from scratch.
+* Small-data limitation: fine-tuning on fewer than 10 personal photographs is well below the $P \gg N^2$ threshold, producing convincing scene composition but inconsistent facial identity - a direct, practical demonstration of the theory.
 
 Full derivations, figures, and discussion are in the accompanying thesis (`thesis/thesis.pdf`).
 
