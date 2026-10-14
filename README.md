@@ -54,16 +54,16 @@ Each notebook is self-contained and can be run top to bottom in Google Colab or 
 jupyter notebook notebooks/01_score_function_2d.ipynb
 ````
 
-**01 — Score function visualisation**
+**01 - Score function visualisation**
 Generates a synthetic two-cluster dataset in 2D, computes the score function analytically, and visualises the symmetry-breaking transition directly as reverse trajectories splitting at the critical time.
 
-**02 — CelebA-HQ pretrained model**
+**02 - CelebA-HQ pretrained model**
 Loads `google/ddpm-celebahq-256`, runs the full 50-step reverse process, and tracks image sharpness at every step to quantify the transition between the class-selection and detail-filling phases.
 
-**03 — MNIST from scratch**
+**03 - MNIST from scratch**
 Implements the forward process, the U-Net score network, the denoising training loop, and the reverse-time sampler entirely from first principles, following Ho et al. (2020).
 
-**04 — LoRA fine-tuning**
+**04 - LoRA fine-tuning**
 Fine-tunes Stable Diffusion 1.5 on a small set of personal photographs using Low Rank Adaptation, associating a unique token with the subject's identity and generating new images in unseen scenarios.
 
 ---
